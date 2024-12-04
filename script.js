@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import http from 'http';
 
 
-const hostname = '127.0.0.1';
+const hostname = '0.0.0.0';
 const port = 3066;
 const server = http.createServer();
 server.on('request', async (req, res) => {
